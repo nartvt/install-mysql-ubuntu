@@ -14,11 +14,11 @@
 
 	1.sudo apt-get install mysql-workbench
 	2.sudo apt-get update
-**MySQL config**
+**MySQL config service**
 
 	start: sudo service mysql [start,stop,restart,status]
 	OR
-	restart: sudo [restart,stop,start,status] mysql
+	restart: sudo systemctl [restart,stop,start,status] mysql
 **Remove mysql**
 
 	sudo apt-get remove --purge mysql*
